@@ -1340,3 +1340,296 @@ a.floating-whatsapp:hover {
 .contact-tiktok:hover {
     opacity: 0.6;
 }
+
+
+/* =========================================================
+   RICHARD & CO WATCHES — DARK THEME
+   Schwarzer Hintergrund / weiße Schrift
+   ========================================================= */
+
+:root {
+    --black: #ffffff;
+    --dark: #f2f2f2;
+    --grey: #b8b8b8;
+    --light-grey: #171717;
+    --border: #333333;
+    --white: #000000;
+}
+
+/* GLOBAL */
+html,
+body {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+body {
+    font-family: var(--sans);
+}
+
+h1, h2, h3, h4, h5, h6,
+p, span, li, label {
+    color: inherit;
+}
+
+/* HEADER */
+.header {
+    background: rgba(0, 0, 0, 0.96) !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+.navigation > a,
+.dropdown-button {
+    color: #ffffff !important;
+}
+
+.header-button {
+    background: transparent !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+.header-button:hover {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* DROPDOWN */
+.dropdown-menu {
+    background: #111111 !important;
+    border: 1px solid #333333 !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5) !important;
+}
+
+.dropdown-menu a {
+    color: #ffffff !important;
+}
+
+.dropdown-menu a:hover {
+    background: #252525 !important;
+}
+
+/* HERO */
+.hero {
+    background: radial-gradient(
+        circle at center,
+        #171717 0%,
+        #090909 60%,
+        #000000 100%
+    ) !important;
+    color: #ffffff !important;
+}
+
+.eyebrow,
+.hero-text {
+    color: #b8b8b8 !important;
+}
+
+/* BUTTONS */
+.button-dark {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #ffffff !important;
+}
+
+.button-dark:hover {
+    background: transparent !important;
+    color: #ffffff !important;
+}
+
+.button-outline {
+    background: transparent !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+.button-outline:hover {
+    background: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* BRANDS SECTION */
+.brands-section {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+.section-heading h2,
+.section-header h2 {
+    color: #ffffff !important;
+}
+
+.section-heading > p:last-child,
+.section-header p,
+.section-eyebrow {
+    color: #b8b8b8 !important;
+}
+
+/* BRAND CARDS */
+.brand-card {
+    background: #111111 !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+}
+
+.brand-card:hover {
+    border-color: #666666 !important;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45) !important;
+}
+
+.brand-name,
+.brand-logo,
+.card-arrow {
+    color: #ffffff !important;
+}
+
+.brand-info {
+    color: #b8b8b8 !important;
+    border-top: 1px solid #333333 !important;
+}
+
+/* BRAND LOGOS */
+.brand-logo-box img {
+    object-fit: contain;
+}
+
+/* FEATURE SECTION */
+.feature-section {
+    background: #111111 !important;
+    color: #ffffff !important;
+}
+
+.feature-content {
+    background: #111111 !important;
+    color: #ffffff !important;
+}
+
+.feature-content p:not(.eyebrow) {
+    color: #b8b8b8 !important;
+}
+
+/* BRAND DETAIL */
+.brand-detail {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+.brand-detail p:last-child {
+    color: #b8b8b8 !important;
+}
+
+/* ABOUT */
+.about-section {
+    background: #111111 !important;
+    color: #ffffff !important;
+}
+
+/* MODELS */
+.models-section {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+.models-grid {
+    background: #000000 !important;
+}
+
+.model-card {
+    background: #111111 !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+}
+
+.model-card:hover {
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5) !important;
+}
+
+.model-image {
+    background: #080808 !important;
+}
+
+/* CONTACT */
+.contact-section {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+.contact-content p:not(.eyebrow) {
+    color: #b8b8b8 !important;
+}
+
+.contact-tiktok {
+    color: #ffffff !important;
+}
+
+/* FOOTER */
+.footer {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border-top: 1px solid #333333;
+}
+
+.footer p {
+    color: #999999 !important;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp-button {
+    background: #111111 !important;
+    color: #ffffff !important;
+}
+
+/* Den grünen WhatsApp-Button beibehalten */
+a.floating-whatsapp {
+    background: #25D366 !important;
+}
+
+a.floating-whatsapp svg {
+    fill: #ffffff !important;
+}
+
+/* FORMULARE */
+input,
+textarea,
+select {
+    background: #111111 !important;
+    color: #ffffff !important;
+    border: 1px solid #444444 !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #999999 !important;
+}
+
+/* ALLGEMEINE RAHMEN */
+.brand-detail,
+.brand-info,
+.brand-card,
+.model-card {
+    border-color: #333333 !important;
+}
+
+/* RESPONSIVE HEADER */
+@media (max-width: 900px) {
+    .header {
+        background: rgba(0, 0, 0, 0.98) !important;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 650px) {
+    .brands-section {
+        background: #000000 !important;
+    }
+
+    .brand-card,
+    .model-card {
+        background: #111111 !important;
+    }
+
+    .feature-content {
+        background: #111111 !important;
+    }
+}
